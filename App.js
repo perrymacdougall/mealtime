@@ -5,6 +5,7 @@ import { AppLoading } from 'expo';
 import { enableScreens } from 'react-native-screens';
 
 import MealsNavigator from './navigation/MealsNavigator';
+import { SafeAreaView } from 'react-native-safe-area-context';
 
 enableScreens();
 
